@@ -1,0 +1,16 @@
+name: My First Action
+
+on: [push, workflow_dispatch]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: 22f2000618@ds.study.iitm.ac.in
+        run: echo "Hello from my GitHub Action! Email step complete."
+
+      - name: List files
+        run: ls -la
