@@ -26,10 +26,10 @@
     { "id": "prod-158f3deb-020", "name": "Premium Item 20", "category": "sports", "price": 61.53, "stock": 88, "rating": 3.5 }
   ],
   "aggregations": {
-    "electronics": { "count": 3, "inventoryValue": 122834.23 },
-    "clothing": { "count": 2, "inventoryValue": 25615.37 },
-    "sports": { "count": 7, "inventoryValue": 89640.71 },
-    "books": { "count": 3, "inventoryValue": 55916.90 },
-    "home": { "count": 4, "inventoryValue": 28009.29 }
+  "electronics": { "count": 3, "inventoryValue": 122834.23 },
+  "clothing": { "count": 2, "inventoryValue": 25615.37 },
+  "sports": { "count": 8, "inventoryValue": 95055.35 },
+  "books": { "count": 3, "inventoryValue": 55916.90 },
+  "home": { "count": 4, "inventoryValue": 28009.29 }
   }
 }
