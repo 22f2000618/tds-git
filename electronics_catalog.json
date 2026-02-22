@@ -4,63 +4,30 @@
     "version": "158f3deb"
   },
   "products": [
-    {
-      "id": "prod-158f3deb-001",
-      "name": "Pro Item 1",
-      "category": "electronics",
-      "price": 479.06,
-      "stock": 72,
-      "rating": 4.2
-    },
-    {
-      "id": "prod-158f3deb-002",
-      "name": "Standard Item 2",
-      "category": "electronics",
-      "price": 240.38,
-      "stock": 4,
-      "rating": 3.1
-    },
-    {
-      "id": "prod-158f3deb-003",
-      "name": "Elite Item 3",
-      "category": "electronics",
-      "price": 174.85,
-      "stock": 141,
-      "rating": 3.0
-    },
+    { "id": "prod-158f3deb-001", "name": "Smartphone X1", "category": "electronics", "price": 499.99, "stock": 50, "rating": 4.5 },
+    { "id": "prod-158f3deb-002", "name": "Wireless Headphones Pro", "category": "electronics", "price": 149.99, "stock": 120, "rating": 4.3 },
+    { "id": "prod-158f3deb-003", "name": "Bluetooth Speaker Mini", "category": "electronics", "price": 79.99, "stock": 200, "rating": 4.1 },
 
-    { "id": "prod-158f3deb-004", "name": "Sports Item 4", "category": "sports", "price": 35.14, "stock": 71, "rating": 4.1 },
-    { "id": "prod-158f3deb-005", "name": "Book Item 5", "category": "books", "price": 150.34, "stock": 26, "rating": 2.0 },
-    { "id": "prod-158f3deb-006", "name": "Clothing Item 6", "category": "clothing", "price": 72.36, "stock": 10, "rating": 3.2 },
-    { "id": "prod-158f3deb-007", "name": "Sports Item 7", "category": "sports", "price": 238.31, "stock": 99, "rating": 4.6 },
-    { "id": "prod-158f3deb-008", "name": "Book Item 8", "category": "books", "price": 232.00, "stock": 169, "rating": 3.2 },
-    { "id": "prod-158f3deb-009", "name": "Clothing Item 9", "category": "clothing", "price": 168.09, "stock": 64, "rating": 3.7 },
-    { "id": "prod-158f3deb-010", "name": "Sports Item 10", "category": "sports", "price": 157.49, "stock": 14, "rating": 2.0 },
-    { "id": "prod-158f3deb-011", "name": "Book Item 11", "category": "books", "price": 299.99, "stock": 45, "rating": 4.4 },
-    { "id": "prod-158f3deb-012", "name": "Clothing Item 12", "category": "clothing", "price": 89.50, "stock": 120, "rating": 4.0 },
-    { "id": "prod-158f3deb-013", "name": "Sports Item 13", "category": "sports", "price": 549.75, "stock": 30, "rating": 4.8 },
-    { "id": "prod-158f3deb-014", "name": "Book Item 14", "category": "books", "price": 129.99, "stock": 85, "rating": 3.9 },
-    { "id": "prod-158f3deb-015", "name": "Clothing Item 15", "category": "clothing", "price": 199.00, "stock": 60, "rating": 4.1 },
-    { "id": "prod-158f3deb-016", "name": "Sports Item 16", "category": "sports", "price": 699.99, "stock": 18, "rating": 4.7 },
-    { "id": "prod-158f3deb-017", "name": "Book Item 17", "category": "books", "price": 59.95, "stock": 200, "rating": 3.8 },
-    { "id": "prod-158f3deb-018", "name": "Clothing Item 18", "category": "clothing", "price": 379.49, "stock": 52, "rating": 4.5 },
-    { "id": "prod-158f3deb-019", "name": "Sports Item 19", "category": "sports", "price": 149.89, "stock": 77, "rating": 4.2 },
-    { "id": "prod-158f3deb-020", "name": "Book Item 20", "category": "books", "price": 899.00, "stock": 12, "rating": 4.9 }
-  ],
+    { "id": "prod-158f3deb-004", "name": "Running Shoes", "category": "sports", "price": 89.99, "stock": 75, "rating": 4.2 },
+    { "id": "prod-158f3deb-005", "name": "Football", "category": "sports", "price": 29.99, "stock": 150, "rating": 4.0 },
+    { "id": "prod-158f3deb-006", "name": "Yoga Mat", "category": "sports", "price": 25.50, "stock": 180, "rating": 4.6 },
+    { "id": "prod-158f3deb-007", "name": "Cricket Bat", "category": "sports", "price": 120.00, "stock": 40, "rating": 4.4 },
 
-  "aggregations": {
-    "electronics": {
-      "count": 3,
-      "inventoryValue": 122834.23
-    },
-    "sports": {
-      "count": 5
-    },
-    "books": {
-      "count": 5
-    },
-    "clothing": {
-      "count": 4
-    }
-  }
+    { "id": "prod-158f3deb-008", "name": "Cotton T-Shirt", "category": "clothing", "price": 19.99, "stock": 250, "rating": 3.9 },
+    { "id": "prod-158f3deb-009", "name": "Denim Jeans", "category": "clothing", "price": 49.99, "stock": 90, "rating": 4.2 },
+    { "id": "prod-158f3deb-010", "name": "Winter Jacket", "category": "clothing", "price": 129.99, "stock": 35, "rating": 4.5 },
+    { "id": "prod-158f3deb-011", "name": "Sneakers", "category": "clothing", "price": 69.99, "stock": 110, "rating": 4.1 },
+
+    { "id": "prod-158f3deb-012", "name": "Mystery Novel", "category": "books", "price": 14.99, "stock": 300, "rating": 4.3 },
+    { "id": "prod-158f3deb-013", "name": "Science Textbook", "category": "books", "price": 59.99, "stock": 60, "rating": 4.7 },
+    { "id": "prod-158f3deb-014", "name": "Cookbook Deluxe", "category": "books", "price": 34.99, "stock": 80, "rating": 4.0 },
+    { "id": "prod-158f3deb-015", "name": "Self-Help Guide", "category": "books", "price": 24.99, "stock": 140, "rating": 3.8 },
+
+    { "id": "prod-158f3deb-016", "name": "Office Chair", "category": "furniture", "price": 199.99, "stock": 20, "rating": 4.4 },
+    { "id": "prod-158f3deb-017", "name": "Wooden Desk", "category": "furniture", "price": 299.99, "stock": 15, "rating": 4.6 },
+    { "id": "prod-158f3deb-018", "name": "Table Lamp", "category": "furniture", "price": 39.99, "stock": 100, "rating": 4.2 },
+
+    { "id": "prod-158f3deb-019", "name": "Kitchen Mixer", "category": "appliances", "price": 89.99, "stock": 55, "rating": 4.3 },
+    { "id": "prod-158f3deb-020", "name": "Microwave Oven", "category": "appliances", "price": 149.99, "stock": 25, "rating": 4.5 }
+  ]
 }
