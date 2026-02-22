@@ -28,141 +28,39 @@
       "stock": 141,
       "rating": 3.0
     },
-    {
-      "id": "prod-158f3deb-004",
-      "name": "Elite Item 4",
-      "category": "electronics",
-      "price": 35.14,
-      "stock": 71,
-      "rating": 4.1
+
+    { "id": "prod-158f3deb-004", "name": "Sports Item 4", "category": "sports", "price": 35.14, "stock": 71, "rating": 4.1 },
+    { "id": "prod-158f3deb-005", "name": "Book Item 5", "category": "books", "price": 150.34, "stock": 26, "rating": 2.0 },
+    { "id": "prod-158f3deb-006", "name": "Clothing Item 6", "category": "clothing", "price": 72.36, "stock": 10, "rating": 3.2 },
+    { "id": "prod-158f3deb-007", "name": "Sports Item 7", "category": "sports", "price": 238.31, "stock": 99, "rating": 4.6 },
+    { "id": "prod-158f3deb-008", "name": "Book Item 8", "category": "books", "price": 232.00, "stock": 169, "rating": 3.2 },
+    { "id": "prod-158f3deb-009", "name": "Clothing Item 9", "category": "clothing", "price": 168.09, "stock": 64, "rating": 3.7 },
+    { "id": "prod-158f3deb-010", "name": "Sports Item 10", "category": "sports", "price": 157.49, "stock": 14, "rating": 2.0 },
+    { "id": "prod-158f3deb-011", "name": "Book Item 11", "category": "books", "price": 299.99, "stock": 45, "rating": 4.4 },
+    { "id": "prod-158f3deb-012", "name": "Clothing Item 12", "category": "clothing", "price": 89.50, "stock": 120, "rating": 4.0 },
+    { "id": "prod-158f3deb-013", "name": "Sports Item 13", "category": "sports", "price": 549.75, "stock": 30, "rating": 4.8 },
+    { "id": "prod-158f3deb-014", "name": "Book Item 14", "category": "books", "price": 129.99, "stock": 85, "rating": 3.9 },
+    { "id": "prod-158f3deb-015", "name": "Clothing Item 15", "category": "clothing", "price": 199.00, "stock": 60, "rating": 4.1 },
+    { "id": "prod-158f3deb-016", "name": "Sports Item 16", "category": "sports", "price": 699.99, "stock": 18, "rating": 4.7 },
+    { "id": "prod-158f3deb-017", "name": "Book Item 17", "category": "books", "price": 59.95, "stock": 200, "rating": 3.8 },
+    { "id": "prod-158f3deb-018", "name": "Clothing Item 18", "category": "clothing", "price": 379.49, "stock": 52, "rating": 4.5 },
+    { "id": "prod-158f3deb-019", "name": "Sports Item 19", "category": "sports", "price": 149.89, "stock": 77, "rating": 4.2 },
+    { "id": "prod-158f3deb-020", "name": "Book Item 20", "category": "books", "price": 899.00, "stock": 12, "rating": 4.9 }
+  ],
+
+  "aggregations": {
+    "electronics": {
+      "count": 3,
+      "inventoryValue": 122834.23
     },
-    {
-      "id": "prod-158f3deb-005",
-      "name": "Premium Item 5",
-      "category": "electronics",
-      "price": 150.34,
-      "stock": 26,
-      "rating": 2.0
+    "sports": {
+      "count": 5
     },
-    {
-      "id": "prod-158f3deb-006",
-      "name": "Elite Item 6",
-      "category": "electronics",
-      "price": 72.36,
-      "stock": 0,
-      "rating": 3.2
+    "books": {
+      "count": 5
     },
-    {
-      "id": "prod-158f3deb-007",
-      "name": "Elite Item 7",
-      "category": "electronics",
-      "price": 238.31,
-      "stock": 99,
-      "rating": 4.6
-    },
-    {
-      "id": "prod-158f3deb-008",
-      "name": "Basic Item 8",
-      "category": "electronics",
-      "price": 232.00,
-      "stock": 169,
-      "rating": 3.2
-    },
-    {
-      "id": "prod-158f3deb-009",
-      "name": "Standard Item 9",
-      "category": "electronics",
-      "price": 168.09,
-      "stock": 64,
-      "rating": 3.7
-    },
-    {
-      "id": "prod-158f3deb-010",
-      "name": "Pro Item 10",
-      "category": "electronics",
-      "price": 157.49,
-      "stock": 14,
-      "rating": 2.0
-    },
-    {
-      "id": "prod-158f3deb-011",
-      "name": "Smart Gadget 11",
-      "category": "electronics",
-      "price": 299.99,
-      "stock": 45,
-      "rating": 4.4
-    },
-    {
-      "id": "prod-158f3deb-012",
-      "name": "Wireless Device 12",
-      "category": "electronics",
-      "price": 89.50,
-      "stock": 120,
-      "rating": 4.0
-    },
-    {
-      "id": "prod-158f3deb-013",
-      "name": "Advanced Tech 13",
-      "category": "electronics",
-      "price": 549.75,
-      "stock": 30,
-      "rating": 4.8
-    },
-    {
-      "id": "prod-158f3deb-014",
-      "name": "Compact Gadget 14",
-      "category": "electronics",
-      "price": 129.99,
-      "stock": 85,
-      "rating": 3.9
-    },
-    {
-      "id": "prod-158f3deb-015",
-      "name": "Digital Device 15",
-      "category": "electronics",
-      "price": 199.00,
-      "stock": 60,
-      "rating": 4.1
-    },
-    {
-      "id": "prod-158f3deb-016",
-      "name": "Premium Tech 16",
-      "category": "electronics",
-      "price": 699.99,
-      "stock": 18,
-      "rating": 4.7
-    },
-    {
-      "id": "prod-158f3deb-017",
-      "name": "Eco Electronic 17",
-      "category": "electronics",
-      "price": 59.95,
-      "stock": 200,
-      "rating": 3.8
-    },
-    {
-      "id": "prod-158f3deb-018",
-      "name": "NextGen Device 18",
-      "category": "electronics",
-      "price": 379.49,
-      "stock": 52,
-      "rating": 4.5
-    },
-    {
-      "id": "prod-158f3deb-019",
-      "name": "Portable Tech 19",
-      "category": "electronics",
-      "price": 149.89,
-      "stock": 77,
-      "rating": 4.2
-    },
-    {
-      "id": "prod-158f3deb-020",
-      "name": "Ultra Gadget 20",
-      "category": "electronics",
-      "price": 899.00,
-      "stock": 12,
-      "rating": 4.9
+    "clothing": {
+      "count": 4
     }
-  ]
+  }
 }
