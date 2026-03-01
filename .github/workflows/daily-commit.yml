@@ -1,5 +1,5 @@
 name: Daily Commit
-run-name: 22f2000618@ds.study.iitm.ac.in - Daily Commit Run
+run-name: 22f2000618 - Daily Commit Run
 
 on:
   schedule:
