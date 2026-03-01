@@ -2,8 +2,8 @@ name: Daily Commit - 22f2000618@ds.study.iitm.ac.in
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # once per day at 03:00 UTC
-  workflow_dispatch:        # for manual testing
+    - cron: "0 3 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,21 +18,12 @@ jobs:
 
       - name: Update daily log by 22f2000618@ds.study.iitm.ac.in
         run: |
-          if [ ! -f daily-log.txt ]; then
-            echo "Daily log file created" > daily-log.txt
-          fi
           echo "Updated at $(date -u)" >> daily-log.txt
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "22f2000618@ds.study.iitm.ac.in"
-
           git add daily-log.txt
-
-          if ! git diff --cached --quiet; then
-            git commit -m "Daily automated commit"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+          git commit -m "Daily automated commit - $(date -u)"
+          git push
